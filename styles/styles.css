@@ -78,8 +78,9 @@ section:nth-child(2) {
 }
 
 .container {
-  margin-left: 125px;
-  margin-right: 125px;
+  margin: 0 auto;
+  padding-right: 125px;
+  padding-left: 125px;
   box-sizing: border-box;
   width: 1400px;
 }
