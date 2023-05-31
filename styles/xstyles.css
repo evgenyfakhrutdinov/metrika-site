@@ -1,0 +1,49 @@
+.nav-section {
+  background: rgba(34, 34, 35, 0.8);
+  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+  min-width: 880px;
+}
+
+.nav-container {
+  margin: 0 auto;
+  width: 880px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-right: 98px;
+}
+
+.logo {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.nav {
+  display: inline-block;
+  margin-top: 2px;
+  vertical-align: top;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-right: 40px;
+  width: 135px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+
+  font-size: 16px;
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+.nav__link_active {
+  text-decoration: underline;
+  color: aquamarine;
+}
