@@ -21,9 +21,9 @@ section {
 section:first-child {
   margin-top: 0px;
 }
-section:nth-child(2) {
+/* section:nth-child(2) {
   margin-top: 0px;
-}
+} */
 
 .nav-container {
   margin: 0 auto;
@@ -239,13 +239,13 @@ a {
   margin-bottom: 60px;
 }
 
-.service_image {
+.service__image {
   display: block;
   width: 1150px;
   height: 270px;
 }
 
-.service_title {
+.service__title {
   margin-top: 15px;
   height: 41px;
   font-weight: 400;
