@@ -4,7 +4,6 @@ body {
   font-family: "Manrope", sans-serif;
   font-style: normal;
   background-color: #f5f5f5;
-  letter-spacing: -0.03em;
 }
 
 .wrapper {
@@ -88,7 +87,9 @@ section:first-child {
 
 h1,
 h2,
-h3 {
+h3,
+p,
+a {
   text-align: left;
   color: #121212;
   letter-spacing: -0.03em;
@@ -128,7 +129,6 @@ h1 {
   height: 366px;
   font-size: 45px;
   line-height: 61px;
-  letter-spacing: -0.03em;
 }
 
 h2 {
@@ -179,7 +179,6 @@ h3 {
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   margin-bottom: 15px;
 }
 
@@ -188,7 +187,6 @@ a {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #ad1818;
   text-decoration: none;
 }
@@ -225,7 +223,6 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -249,6 +246,5 @@ a {
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   color: #ffffff;
 }
