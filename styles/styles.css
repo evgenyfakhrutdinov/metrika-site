@@ -71,7 +71,6 @@ header {
   padding-right: 125px;
   padding-left: 125px;
   width: 1400px;
-  box-sizing: border-box;
 }
 
 .interior__title,
@@ -212,7 +211,6 @@ header {
 }
 
 .services {
-  width: 1400px;
   background-color: #121212;
   background-size: 100%;
 }
@@ -252,16 +250,14 @@ header {
 .fullWidthImage {
   position: relative;
   height: 717px;
-  width: 1400px;
-  background-image: url(/resources/forest-landscape.png);
+  background-image: url(/module-1/resources/forest-landscape.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50%;
 }
 
 .fullWidthImage__text {
   position: absolute;
-  left: 125px;
   bottom: 60px;
   font-size: 30px;
   line-height: 41px;
@@ -273,7 +269,6 @@ header {
 }
 
 .contacts__text-wrapper {
-  margin-left: 125px;
   position: relative;
 }
 
@@ -282,10 +277,10 @@ header {
   position: absolute;
   display: block;
   bottom: 220px;
-  right: 1295px;
+  right: 1130px;
   width: 24px;
   height: 24px;
-  background-image: url(/resources/iphone-icon.png);
+  background-image: url(/module-1/resources/iphone-icon.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -324,9 +319,9 @@ header {
 
 .footer {
   padding-top: 60px;
-  width: 1400px;
   height: 230px;
   background-color: #121212;
+  background-size: 100%;
 }
 
 .footer-nav {
