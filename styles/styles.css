@@ -141,11 +141,18 @@ header {
   line-height: 25px;
 }
 
-.project__title,
+.project__title {
+  margin-bottom: 15px;
+  font-size: 30px;
+  line-height: 41px;
+}
+
 .service__title {
-  font-weight: 400;
-  font-size: 45px;
-  line-height: 61px;
+  margin-top: 13px;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 41px;
 }
 
 .about-us__btn {
