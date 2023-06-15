@@ -250,7 +250,7 @@ header {
 .fullWidthImage {
   position: relative;
   height: 717px;
-  background-image: url(/resources/forest-landscape.png);
+  background-image: url(../resources/forest-landscape.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -280,7 +280,7 @@ header {
   right: 1130px;
   width: 24px;
   height: 24px;
-  background-image: url(/resources/iphone-icon.png);
+  background-image: url(../resources/iphone-icon.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
