@@ -213,6 +213,7 @@ header {
 .services {
   background-color: #121212;
   background-size: 100%;
+  min-width: 1400px;
 }
 
 .services-title {
@@ -250,6 +251,7 @@ header {
 .fullWidthImage {
   position: relative;
   height: 717px;
+  min-width: 1400px;
   background-image: url(../resources/forest-landscape.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -320,6 +322,7 @@ header {
 .footer {
   padding-top: 60px;
   height: 230px;
+  min-width: 1400px;
   background-color: #121212;
   background-size: 100%;
 }
