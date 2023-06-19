@@ -3,11 +3,9 @@ html {
 }
 
 body {
-  box-sizing: border-box;
   width: 100%;
   font-family: "Manrope", sans-serif;
   font-style: normal;
-  font-weight: 400;
 }
 
 .main {
@@ -39,7 +37,6 @@ header {
   margin-left: 60px;
   font-size: 18px;
   line-height: 25px;
-  text-align: left;
   color: #121212;
   text-decoration: none;
 }
@@ -86,7 +83,6 @@ div {
   margin-top: 20px;
   margin-bottom: 30px;
   width: 956px;
-  font-weight: 400;
   font-size: 60px;
   line-height: 60px;
 }
@@ -105,7 +101,6 @@ div {
   left: 40px;
   bottom: 40px;
   width: 430px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   color: rgb(255, 255, 255);
@@ -124,7 +119,6 @@ div {
 .services__title,
 .contacts__title {
   margin-bottom: 30px;
-  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
 }
@@ -179,7 +173,6 @@ div {
 
 .project__link {
   padding-top: 15px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   color: #ad1818;
@@ -214,7 +207,6 @@ div {
 .services-title {
   margin-bottom: 34px;
   padding-top: 150px;
-  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -237,7 +229,6 @@ div {
 
 .service__title {
   margin-top: 15px;
-  font-weight: 400;
   font-size: 30px;
   line-height: 41px;
   color: #ffffff;
@@ -331,7 +322,6 @@ div {
   margin-right: 47px;
   font-size: 18px;
   line-height: 25px;
-  text-align: left;
   color: #ffffff;
   text-decoration: none;
 }
