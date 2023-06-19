@@ -73,24 +73,12 @@ header {
   width: 1400px;
 }
 
-.interior__title,
-.about-us__title,
-.projects__title,
-.services__title,
-.contacts__title,
-.project__title,
-.service__title,
-.picture__text,
-.interior__text,
-.about-us__description,
-.contacts__number,
-.contacts__email,
-.logo-link,
-.nav-link,
-.about-us__btn,
-.project__link,
-.box,
-.footer-text {
+h1,
+h2,
+h3,
+a,
+p,
+div {
   letter-spacing: -0.03em;
 }
 
