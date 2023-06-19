@@ -10,12 +10,12 @@ body {
 
 .main {
   margin: 0 auto;
-  padding-top: 33px;
   background-color: #ffffff;
 }
 
 header {
   margin-bottom: 70px;
+  margin-top: 33px;
 }
 
 .logo-link {
