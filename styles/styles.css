@@ -269,7 +269,7 @@ div {
   position: relative;
 }
 
-.contacts__text-wrapper::before {
+.contacts__text-wrapper:before {
   content: "";
   position: absolute;
   display: block;
