@@ -1,0 +1,17 @@
+.gallery {
+  position: relative;
+  height: 717px;
+  min-width: 1400px;
+  background-image: url(../resources/forest-landscape.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.gallery__text {
+  position: absolute;
+  bottom: 60px;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+}

@@ -1,0 +1,27 @@
+.intro__title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 956px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.intro__backround {
+  position: relative;
+  width: 1150px;
+  height: 500px;
+  background-image: url(../resources/interior.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro__text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  font-size: 20px;
+  line-height: 27px;
+  color: rgb(255, 255, 255);
+}

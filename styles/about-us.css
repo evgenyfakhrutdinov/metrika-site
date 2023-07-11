@@ -1,0 +1,35 @@
+.about-us__description {
+  margin-bottom: 30px;
+  width: 1048px;
+  font-size: 45px;
+  line-height: 61px;
+}
+
+.about-us__title,
+.projects__title,
+.services__title,
+.contacts__title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.about-us__btn {
+  padding-top: 20px;
+  display: block;
+  width: 255px;
+  height: 67px;
+  border: 1px solid #ad1818;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 27px;
+  color: white;
+  background-color: #ad1818;
+  border-radius: 5px;
+}
+
+.about-us__btn:hover {
+  color: #ad1818;
+  background-color: white;
+}
