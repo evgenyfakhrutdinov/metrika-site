@@ -33,33 +33,28 @@
       <!-- Первая часть макета -->
       <section class="intro">
         <div class="container">
-          <div class="intro-inner">
-            <h1 class="intro__title" id="main">
-              Современные и стильные интерьеры для комфортной жизни
-            </h1>
-            <div class="intro__backround">
-              <p class="intro__text">
-                Мы - команда квалифицированных дизайнеров и архитекторов,
-                занимающихся разработкой и реализацией дизайн-проектов
-              </p>
-            </div>
+          <h1 class="intro__title" id="main">
+            Современные и стильные интерьеры для комфортной жизни
+          </h1>
+          <div class="intro__backround">
+            <p class="intro__text">
+              Мы - команда квалифицированных дизайнеров и архитекторов,
+              занимающихся разработкой и реализацией дизайн-проектов
+            </p>
           </div>
         </div>
       </section>
       <!-- Вторая часть макета -->
       <section class="about-us" id="about-us">
         <div class="container">
-          <div class="about-us-inner">
-            <h2 class="about-us__title">О НАС</h2>
-            <p class="about-us__description">
-              Студия основана в 2011 году. Полностью отдаемся проектированию и
-              реализации интерьеров. К нам обращаются за уютом, индивидуальными
-              решениями и практичностью. Находим конструктивные решения для
-              каждого интерьера, вплоть до каждой детали — нацелены на
-              результат.
-            </p>
-            <a class="about-us__btn" href="#services">Посмотреть услуги</a>
-          </div>
+          <h2 class="about-us__title">О НАС</h2>
+          <p class="about-us__description">
+            Студия основана в 2011 году. Полностью отдаемся проектированию и
+            реализации интерьеров. К нам обращаются за уютом, индивидуальными
+            решениями и практичностью. Находим конструктивные решения для
+            каждого интерьера, вплоть до каждой детали — нацелены на результат.
+          </p>
+          <a class="about-us__btn" href="#services">Посмотреть услуги</a>
         </div>
       </section>
       <!-- Проекты -->
@@ -69,11 +64,22 @@
             <h2 class="projects__title">ПРОЕКТЫ</h2>
             <ul class="project-list">
               <li class="project">
-                <img
-                  class="project__image"
-                  src="resources/right-side.png"
-                  alt="Квартира с дизайнерским ремонтом в ЖК ПРАВОБЕРЕЖНЫЙ"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="resources/right-side_mobile.png"
+                  />
+
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="resources/right-side_tablet.png"
+                  />
+                  <img
+                    class="project__image"
+                    src="resources/right-side.png"
+                    alt="Квартира с дизайнерским ремонтом в ЖК ПРАВОБЕРЕЖНЫЙ"
+                  />
+                </picture>
                 <h3 class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                 <a
                   class="project__link"
@@ -84,11 +90,22 @@
               </li>
 
               <li class="project">
-                <img
-                  class="project__image"
-                  src="resources/norway-park.png"
-                  alt="Квартира с дизайнерским ремонтом в ЖК НОРВЕЖСКИЙ ПАРК"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="resources/norway-park_mobile.png"
+                  />
+
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="resources/norway-park_tablet.png"
+                  />
+                  <img
+                    class="project__image"
+                    src="resources/norway-park.png"
+                    alt="Квартира с дизайнерским ремонтом в ЖК НОРВЕЖСКИЙ ПАРК"
+                  />
+                </picture>
                 <h3 class="project__title">
                   ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
                 </h3>
@@ -101,11 +118,22 @@
               </li>
 
               <li class="project">
-                <img
-                  class="project__image"
-                  src="resources/pine-lakes.png"
-                  alt="Квартира с дизайнерским ремонтом в ЖК СОСНОВСКИЕ ОЗЕРА"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="resources/pine-lakes_mobile.png"
+                  />
+
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="resources/pine-lakes_tablet.png"
+                  />
+                  <img
+                    class="project__image"
+                    src="resources/pine-lakes.png"
+                    alt="Квартира с дизайнерским ремонтом в ЖК СОСНОВСКИЕ ОЗЕРА"
+                  />
+                </picture>
                 <h3 class="project__title">
                   ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
                 </h3>

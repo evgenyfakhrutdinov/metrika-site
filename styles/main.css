@@ -64,8 +64,10 @@ div {
   }
 
   .intro__backround {
+    bottom: 30px;
     width: 928px;
     height: 400px;
+    background-image: url(../resources/interior_tablet.png);
   }
 
   .intro__text {
@@ -116,7 +118,7 @@ div {
   }
 
   .intro__title {
-    margin-bottom: 25px;
+    padding-bottom: 25px;
     width: 337px;
     font-size: 30px;
     line-height: 32px;
@@ -125,6 +127,7 @@ div {
   .intro__backround {
     width: 350px;
     height: 304px;
+    background-image: url(../resources/interior_mobile.png);
   }
 
   .intro__text {
