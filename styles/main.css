@@ -31,7 +31,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1150px;
+  max-width: 1150px;
 }
 
 h1,
@@ -58,16 +58,19 @@ div {
   }
 
   .intro__title {
-    width: 802px;
+    padding-bottom: 30px;
+    max-width: 802px;
     font-size: 50px;
     line-height: 60px;
   }
 
   .intro__backround {
     bottom: 30px;
-    width: 928px;
+    width: 100%;
     height: 400px;
     background-image: url(../resources/interior_tablet.png);
+    background-size: cover;
+    background-position: center;
   }
 
   .intro__text {
@@ -80,6 +83,7 @@ div {
 
   .about-us__description {
     width: 690px;
+    height: 336px;
     font-size: 35px;
     line-height: normal;
   }
@@ -94,8 +98,9 @@ div {
   }
 
   .project__image {
-    width: 928px;
+    width: 100%;
     height: 450px;
+    object-fit: cover;
   }
 
   .btn-project {
@@ -125,9 +130,9 @@ div {
   }
 
   .intro__backround {
-    width: 350px;
-    height: 304px;
-    background-image: url(../resources/interior_mobile.png);
+    width: 100%;
+    height: 305px;
+    background-image: url(../resources/interior_tablet.png);
   }
 
   .intro__text {
@@ -162,7 +167,7 @@ div {
 
   .project__image {
     margin-bottom: 20px;
-    width: 350px;
+    width: 100%;
     height: 250px;
   }
 
@@ -182,5 +187,10 @@ div {
     height: 100px;
     font-size: 22px;
     line-height: normal;
+  }
+}
+@media (max-width: 400px) {
+  .intro__backround {
+    background-image: url(../resources/interior_mobile.png);
   }
 }
