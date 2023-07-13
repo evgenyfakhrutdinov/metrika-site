@@ -59,7 +59,11 @@ div {
 
   .intro__title {
     padding-bottom: 30px;
+<<<<<<< HEAD
     max-width: 802px;
+=======
+    width: 802px;
+>>>>>>> 15be8ca3863e638da8ec2617995b226f0ef19bbd
     font-size: 50px;
     line-height: 60px;
   }
