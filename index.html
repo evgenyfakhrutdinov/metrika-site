@@ -16,6 +16,7 @@
   </head>
   <body>
     <!-- Навигация -->
+
     <!-- <header>
           <div class="container">
             <a class="logo-link" href="#main">
@@ -31,6 +32,7 @@
       </header> -->
     <main class="main">
       <!-- Первая часть макета -->
+
       <section class="intro">
         <div class="container">
           <h1 class="intro__title" id="main">
@@ -57,7 +59,9 @@
           <a class="about-us__btn" href="#services">Посмотреть услуги</a>
         </div>
       </section>
+
       <!-- Проекты -->
+
       <section class="projects" id="projects">
         <div class="container">
           <div class="projects__inner">
@@ -150,56 +154,97 @@
           </div>
         </div>
       </section>
+
       <!-- Услуги -->
-      <!-- <section class="services" id="services">
+
+      <section class="services" id="services">
         <div class="container">
           <h2 class="services-title">Услуги</h2>
-          <ul class="service-list">
-            <li class="service">
-              <img
-                class="service__image"
-                src="resources/drawing.png"
-                alt="Чертеж"
-              />
-              <h3 class="service__title">
-                Планировочное решение — от 2500₽/м²
-              </h3>
-            </li>
-
-            <li class="service">
-              <img
-                class="service__image"
-                src="resources/pantone.png"
-                alt="Таблица цветов Pantone"
-              />
-              <h3 class="service__title">Дизайн-проект — от 3000₽/м²</h3>
-            </li>
-
-            <li class="service">
-              <img
-                class="service__image"
-                src="resources/architect.png"
-                alt="Архитектор рисует чертеж"
-              />
-              <h3 class="service__title">
-                Авторский надзор — от 30 000₽ в месяц
-              </h3>
-            </li>
-
-            <li class="service">
-              <img
-                class="service__image"
-                src="resources/pallets.png"
-                alt="Склад"
-              />
-              <h3 class="service__title">
-                Комплектация — 5% от стоимости спецификации
-              </h3>
-            </li>
-          </ul>
+          <div class="service-list_wrapper">
+            <ul class="service-list">
+              <li class="service">
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="resources/architect_mobile.png"
+                  />
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="resources/architect_tablet.png"
+                  />
+                  <img
+                    class="service__image"
+                    src="resources/architect-layout.png"
+                    alt="Чертеж"
+                  />
+                </picture>
+                <p class="service__text">от 2500₽/м²</p>
+                <h3 class="service__title">Планировочное решение</h3>
+              </li>
+              <li class="service">
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="resources/pantone_mobile.png"
+                  />
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="resources/pantone_tablet.png"
+                  />
+                  <img
+                    class="service__image"
+                    src="resources/pantone-layout.png"
+                    alt="Таблица цветов Pantone"
+                  />
+                </picture>
+                <p class="service__text">от 3000₽/м²</p>
+                <h3 class="service__title">Дизайн-проект</h3>
+              </li>
+              <li class="service">
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="resources/drawing_mobile.png"
+                  />
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="resources/drawing_tablet.png"
+                  />
+                  <img
+                    class="service__image"
+                    src="resources/drawing-layout.png"
+                    alt="Архитектор рисует чертеж"
+                  />
+                </picture>
+                <p class="service__text">от 30 000₽/мес</p>
+                <h3 class="service__title">Авторский надзор</h3>
+              </li>
+              <li class="service">
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="resources/pallets_mobile.png"
+                  />
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="resources/pallets_tablet.png"
+                  />
+                  <img
+                    class="service__image"
+                    src="resources/pallets-layout.png"
+                    alt="Склад"
+                  />
+                </picture>
+                <p class="service__text">5% от стоимости</p>
+                <h3 class="service__title">Комплектация</h3>
+              </li>
+            </ul>
+          </div>
         </div>
-      </section> -->
+      </section>
+
       <!-- Изображение на весь экран -->
+
       <!-- <section class="gallery">
         <div class="container">
           <h3 class="gallery__text">
@@ -207,8 +252,10 @@
             квартиры в ЖК Лесной Пейзаж
           </h3>
         </div>
-      </section> -->
+      </section>
+
       <!-- Контакты -->
+
       <!-- <section class="contacts">
         <div class="container">
           <div class="contacts__text-wrapper">

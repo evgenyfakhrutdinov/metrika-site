@@ -106,6 +106,24 @@ div {
   .btn-project {
     height: 153px;
   }
+
+  .service-list {
+    row-gap: 80px;
+  }
+
+  .service__text {
+    padding: 7px 27px;
+    left: 32px;
+    top: 31px;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+  }
+
+  .service__title {
+    margin-top: 15px;
+    font-size: 25px;
+    letter-spacing: -0.75px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -188,6 +206,27 @@ div {
     height: 100px;
     font-size: 22px;
     line-height: normal;
+  }
+
+  .services-title {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .service__text {
+    padding: 6px 24px;
+    left: 24px;
+    top: 23px;
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .service-list {
+    row-gap: 60px;
   }
 }
 @media (max-width: 400px) {

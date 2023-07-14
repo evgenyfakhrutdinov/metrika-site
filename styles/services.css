@@ -8,12 +8,11 @@
 
 .services {
   background-color: #121212;
-  background-size: 100%;
-  min-width: 1400px;
+  width: 100%;
 }
 
 .services-title {
-  margin-bottom: 34px;
+  margin-bottom: 30px;
   padding-top: 150px;
   font-size: 18px;
   line-height: 25px;
@@ -21,8 +20,22 @@
   color: #ffffff;
 }
 
+.service-list_wrapper {
+  padding-bottom: 80px;
+  background-color: #121212;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 85px;
+  background-color: #121212;
+}
+
 .service {
-  padding-bottom: 60px;
+  position: relative;
+  width: calc(50% - 5px);
 }
 
 .service:last-child {
@@ -30,13 +43,26 @@
 }
 
 .service__image {
-  display: block;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.service__text {
+  padding: 5px 20px;
+  position: absolute;
+  left: 30px;
+  top: 31px;
+  font-size: 22px;
+  line-height: normal;
+  color: #fff;
+  letter-spacing: -0.66px;
+  border-radius: 5px;
+  background: #ad1818;
+}
+
 .service__title {
-  margin-top: 15px;
+  margin-top: 25px;
   font-size: 30px;
   line-height: 41px;
   color: #ffffff;
