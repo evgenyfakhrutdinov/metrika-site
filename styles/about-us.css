@@ -5,15 +5,6 @@
   line-height: 61px;
 }
 
-.about-us__title,
-.projects__title,
-.services__title,
-.contacts__title {
-  margin-bottom: 30px;
-  font-size: 18px;
-  line-height: 25px;
-}
-
 .about-us__btn {
   padding-top: 20px;
   display: block;
@@ -32,4 +23,32 @@
 .about-us__btn:hover {
   color: #ad1818;
   background-color: white;
+}
+
+@media (max-width: 1199px) {
+  .about-us__title {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .about-us__description {
+    width: 690px;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+  }
+
+  .about-us__btn {
+    width: 100%;
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us__description {
+    width: 346px;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+  }
 }

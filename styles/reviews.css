@@ -1,0 +1,50 @@
+.reviews-list {
+  margin-bottom: 117px;
+}
+
+.reviews-list__title {
+  margin-bottom: 14px;
+  font-size: 45px;
+  letter-spacing: -1.35px;
+}
+
+.review__text {
+  width: 100%;
+  font-size: 22px;
+  letter-spacing: -0.66px;
+}
+
+.review:last-child:nth-child(2n + 1) {
+  width: 861px;
+}
+
+@media (max-width: 1199px) {
+  .reviews-list__title {
+    margin-bottom: 25px;
+    font-size: 35px;
+    letter-spacing: -1.05px;
+  }
+
+  .review__text {
+    font-size: 20px;
+    letter-spacing: -0.6px;
+  }
+}
+
+@media (max-width: 767px) {
+  .reviews__title {
+    margin-bottom: 22px;
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+
+  .reviews-list__title {
+    margin-bottom: 10px;
+    font-size: 25px;
+    letter-spacing: -0.75px;
+  }
+
+  .review:last-child:nth-child(2n + 1) {
+    width: 100%;
+  }
+}

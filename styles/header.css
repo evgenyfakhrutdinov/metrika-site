@@ -40,3 +40,9 @@ header {
 .nav-link:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 767px) {
+}

@@ -50,3 +50,9 @@
   opacity: 0.5;
   color: #000000;
 }
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 767px) {
+}

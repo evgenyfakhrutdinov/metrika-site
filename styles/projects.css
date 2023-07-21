@@ -24,7 +24,7 @@
   text-decoration: none;
 }
 
-.btn-project {
+.full-width-btn {
   padding-top: 56px;
   display: block;
   width: 100%;
@@ -38,7 +38,59 @@
   color: #ad1818;
 }
 
-.btn-project:hover {
+.full-width-btn:hover {
   color: #f5f5f5;
   background-color: #ad1818;
+}
+
+@media (max-width: 1199px) {
+  .project {
+    margin-bottom: 80px;
+  }
+
+  .project__title {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .project__image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+
+  .full-width-btn {
+    height: 153px;
+  }
+}
+
+@media (max-width: 767px) {
+  .project {
+    margin-bottom: 60px;
+  }
+
+  .project__image {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .project__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .project__link {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .full-width-btn {
+    padding-top: 37px;
+    padding-bottom: 37px;
+    height: 100px;
+    font-size: 22px;
+    line-height: normal;
+  }
 }
