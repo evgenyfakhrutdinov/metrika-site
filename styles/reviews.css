@@ -32,6 +32,10 @@
 }
 
 @media (max-width: 767px) {
+  .row_review {
+    row-gap: 80px;
+  }
+
   .reviews__title {
     margin-bottom: 22px;
     font-size: 14px;

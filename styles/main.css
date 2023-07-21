@@ -105,6 +105,10 @@ div {
     row-gap: 60px;
   }
 
+  .row_review {
+    row-gap: 80px;
+  }
+
   .col {
     width: 100%;
   }
