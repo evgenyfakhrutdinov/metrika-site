@@ -51,6 +51,7 @@
   .project__title {
     margin-bottom: 10px;
     font-size: 25px;
+    line-height: 30px;
   }
 
   .project__image {
