@@ -27,7 +27,7 @@
 
   .review__text {
     font-size: 20px;
-    line-height: 30px;
+    line-height: normal;
     letter-spacing: -0.6px;
   }
 }
