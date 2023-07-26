@@ -71,14 +71,12 @@
     left: 32px;
     top: 31px;
     font-size: 20px;
-    letter-spacing: -0.6px;
   }
 
   .service__title {
     margin-top: 15px;
     font-size: 25px;
-    line-height: 30px;
-    letter-spacing: -0.75px;
+    line-height: normal;
   }
 }
 
@@ -100,13 +98,11 @@
     left: 24px;
     top: 23px;
     font-size: 14px;
-    letter-spacing: -0.42px;
   }
 
   .service__title {
     margin-top: 10px;
     font-size: 18px;
-    letter-spacing: -0.54px;
   }
 
   .service {
@@ -118,6 +114,5 @@
     height: 100px;
     border-radius: 4px;
     font-size: 22px;
-    letter-spacing: -0.66px;
   }
 }
