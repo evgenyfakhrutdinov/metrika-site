@@ -24,7 +24,7 @@
   text-decoration: none;
 }
 
-.full-width-btn {
+.project-btn {
   padding-top: 56px;
   display: block;
   width: 100%;
@@ -38,7 +38,7 @@
   color: #ad1818;
 }
 
-.full-width-btn:hover {
+.project-btn:hover {
   color: #f5f5f5;
   background-color: #ad1818;
 }
@@ -46,6 +46,10 @@
 @media (max-width: 1199px) {
   .project {
     margin-bottom: 80px;
+  }
+
+  .project-last {
+    margin-bottom: 102px;
   }
 
   .project__title {
@@ -60,14 +64,15 @@
     object-fit: cover;
   }
 
-  .full-width-btn {
+  .project-btn {
+    margin-bottom: 103px;
     height: 153px;
   }
 }
 
 @media (max-width: 767px) {
   .project {
-    margin-bottom: 60px;
+    margin-bottom: 49px;
   }
 
   .project__image {
@@ -87,7 +92,12 @@
     line-height: normal;
   }
 
-  .full-width-btn {
+  .project-last {
+    margin-bottom: 60px;
+  }
+
+  .project-btn {
+    margin-bottom: 80px;
     padding-top: 37px;
     padding-bottom: 37px;
     height: 100px;

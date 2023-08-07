@@ -29,6 +29,7 @@
   .about-us__title {
     margin-bottom: 20px;
     font-size: 14px;
+    line-height: normal;
   }
 
   .about-us__description {
@@ -48,6 +49,7 @@
   .about-us__description {
     width: 346px;
     font-size: 22px;
+    padding-right: 2%;
   }
 
   .about-us__btn {
