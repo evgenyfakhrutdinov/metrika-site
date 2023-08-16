@@ -126,8 +126,3 @@ div {
     margin-bottom: 54px;
   }
 }
-@media (max-width: 400px) {
-  .intro__backround {
-    background-image: url(../resources/interior_mobile.png);
-  }
-}
