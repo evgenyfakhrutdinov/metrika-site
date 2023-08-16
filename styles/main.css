@@ -35,16 +35,8 @@ body {
   row-gap: 85px;
 }
 
-.row_review {
-  row-gap: 80px;
-}
-
 .col {
   width: calc(50% - 5px);
-}
-
-.review {
-  width: calc(50% - 25px);
 }
 
 .intro,
@@ -85,10 +77,6 @@ div {
     row-gap: 80px;
   }
 
-  .review {
-    width: calc(50% - 5px);
-  }
-
   .intro,
   .about-us,
   .services,
@@ -111,10 +99,6 @@ div {
   .row {
     flex-direction: column;
     row-gap: 60px;
-  }
-
-  .row_review {
-    row-gap: 80px;
   }
 
   .col {
