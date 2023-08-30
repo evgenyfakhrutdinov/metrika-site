@@ -1,23 +1,155 @@
 .gallery {
   position: relative;
+}
+
+.gallery__slides {
+  position: relative;
   height: 717px;
-  min-width: 1400px;
+}
+
+.gallery__slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.gallery__slide_active {
+  opacity: 1;
+}
+
+.box {
+  height: 100%;
+}
+
+.box__first {
   background-image: url(../resources/forest-landscape.png);
+}
+
+.box__second {
+  background-image: url(../resources/light-house.png);
+}
+
+.box__third {
+  background-image: url(../resources/kitchen-livingroom.png);
+}
+
+.box__fourth {
+  background-image: url(../resources/north-wind.png);
+}
+
+.box__first,
+.box__second,
+.box__third,
+.box__fourth {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50%;
+  background-position: 50% 50%;
+}
+
+.gallery__controls-wrapper {
+  position: absolute;
+  bottom: 162px;
+  width: 100%;
+  height: 40px;
+}
+
+.gallery__controls {
+  display: flex;
+}
+
+.gallery__control-prev {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none;
+  background-image: url(../resources/baseline-arrow-prev.png);
+  background-size: cover;
+}
+
+.gallery__control-next {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none;
+  background-image: url(../resources/baseline-arrow-next.png);
+  background-size: cover;
+}
+
+.gallery-title {
+  position: absolute;
+  top: 60px;
+  font-size: 22px;
+  letter-spacing: -0.66px;
+  color: #fff;
+  z-index: 1;
+}
+
+.gallery__control-next:hover,
+.gallery__control-prev:hover {
+  opacity: 0.5;
 }
 
 .gallery__text {
   position: absolute;
-  bottom: 60px;
+  top: 574px;
   font-size: 30px;
   line-height: 41px;
   color: #ffffff;
 }
 
 @media (max-width: 1199px) {
+  .gallery__slides {
+    height: 536px;
+  }
+
+  .gallery-title {
+    top: 80px;
+    left: 50px;
+    font-size: 20px;
+  }
+
+  .gallery__controls-wrapper {
+    left: 41px;
+    bottom: 152px;
+  }
+
+  .gallery__text {
+    left: 50px;
+    top: 388px;
+    font-size: 25px;
+    letter-spacing: -0.75px;
+    line-height: normal;
+  }
 }
 
 @media (max-width: 767px) {
+  .gallery__slides {
+    height: 408px;
+  }
+
+  .gallery-title {
+    top: 61px;
+    left: 12px;
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+
+  .gallery__controls-wrapper {
+    top: 189px;
+    left: 7px;
+    right: 5px;
+  }
+
+  .gallery__controls {
+    justify-content: space-between;
+  }
+
+  .gallery__text {
+    top: 296px;
+    left: 12px;
+    font-size: 19px;
+    letter-spacing: -0.57px;
+    line-height: normal;
+  }
 }
