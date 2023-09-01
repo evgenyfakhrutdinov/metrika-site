@@ -43,7 +43,8 @@ body {
 .about-us,
 .projects,
 .services,
-.contacts {
+.contacts,
+.gallery {
   margin-bottom: 150px;
 }
 
@@ -80,7 +81,8 @@ div {
   .intro,
   .about-us,
   .services,
-  .contacts {
+  .contacts,
+  .gallery {
     margin-bottom: 120px;
   }
 
@@ -118,7 +120,8 @@ div {
   .intro,
   .projects,
   .services,
-  .contacts {
+  .contacts,
+  .gallery {
     margin-bottom: 80px;
   }
 

@@ -18,62 +18,36 @@
   opacity: 1;
 }
 
-.box {
+.gallery__image {
   height: 100%;
-}
-
-.box__first {
-  background-image: url(../resources/forest-landscape.png);
-}
-
-.box__second {
-  background-image: url(../resources/light-house.png);
-}
-
-.box__third {
-  background-image: url(../resources/kitchen-livingroom.png);
-}
-
-.box__fourth {
-  background-image: url(../resources/north-wind.png);
-}
-
-.box__first,
-.box__second,
-.box__third,
-.box__fourth {
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-}
-
-.gallery__controls-wrapper {
-  position: absolute;
-  bottom: 162px;
-  width: 100%;
-  height: 40px;
+  object-fit: cover;
 }
 
 .gallery__controls {
+  position: absolute;
+  bottom: 152px;
   display: flex;
 }
 
-.gallery__control-prev {
-  width: 40px;
-  height: 40px;
-  border: none;
-  background: none;
-  background-image: url(../resources/baseline-arrow-prev.png);
-  background-size: cover;
-}
-
+.gallery__control-prev,
 .gallery__control-next {
   width: 40px;
   height: 40px;
   border: none;
   background: none;
-  background-image: url(../resources/baseline-arrow-next.png);
   background-size: cover;
+}
+
+.gallery__control-prev {
+  background-image: url(../resources/baseline-arrow-prev.png);
+}
+
+.gallery__control-next {
+  background-image: url(../resources/baseline-arrow-next.png);
 }
 
 .gallery-title {
@@ -109,7 +83,7 @@
     font-size: 20px;
   }
 
-  .gallery__controls-wrapper {
+  .gallery__controls {
     left: 41px;
     bottom: 152px;
   }
@@ -135,13 +109,10 @@
     letter-spacing: -0.42px;
   }
 
-  .gallery__controls-wrapper {
+  .gallery__controls {
     top: 189px;
     left: 7px;
     right: 5px;
-  }
-
-  .gallery__controls {
     justify-content: space-between;
   }
 
