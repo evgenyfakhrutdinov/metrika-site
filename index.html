@@ -248,10 +248,33 @@
                 </div>
               </div>
             </ul>
-            <a class="service-btn" href="">Заказать услугу</a>
+            <button class="js-btn service-btn" href="">Заказать услугу</button>
+            <div class="js-popup popup">
+              
+              <div class="js-popup__content popup__content">
+                <div class="popup__wrapper">
+                <p class="popup__title">Заказать услугу</p>
+                <p class="popup__description">Заполните форму, мы свяжемся с вами в течение суток</p>
+                <div class="popup__input">
+                <input class="input" 
+                type="text"
+                placeholder="Имя">
+                <input class="input" 
+                type="text"
+                placeholder="Электронная почта">
+                <input class="input" 
+                type="text"
+                placeholder="Номер телефона">
+              </div>
+                <div class="js-popup__close-btn popup__close-btn"></div>
+                <button class="popup__sendform-btn">Отправить</button>
+              </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+      <script src="popup.js"></script>
 
       <!-- Отзывы -->
 

@@ -63,7 +63,8 @@ h2,
 h3,
 a,
 p,
-div {
+div,
+button {
   letter-spacing: -0.03em;
 }
 
