@@ -16,19 +16,48 @@
   </head>
   <body>
     <!-- Навигация -->
-    <!-- <header>
+    <header>
           <div class="container">
             <a class="logo-link" href="#main">
-              <img class="logo" src="resources/header-logo.png" alt="Логотип компании" />
-            </a>
-            <nav class="nav">
-              <a href="#about-us" class="nav-link">О НАС</a>
-              <a href="#projects" class="nav-link">ПРОЕКТЫ</a>
-              <a href="#services" class="nav-link">УСЛУГИ</a>
-              <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
-          </div>
-        </nav> 
-      </header> -->
+              <div class="header-inner">
+                <picture>
+                  <source
+                  media="(max-width: 767px)"
+                  srcset="resources/logo-mobile.png"
+                  >
+                  <img class="logo" src="resources/logo.png" alt="Логотип компании" />
+                </picture>
+              <nav class="nav">
+                <a href="#about-us" class="nav-link">О НАС</a>
+                <a href="#projects" class="nav-link">ПРОЕКТЫ</a>
+                <a href="#services" class="nav-link">УСЛУГИ</a>
+                <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
+              </div>
+              <button class="js-burger-btn burger-btn"></button>
+            </nav>
+             </div>
+      </header>
+      <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+    <img class="burger__logo" src="/resources/logo-burger_open.png" alt="Логотип компании">
+    <nav class="burger__nav">
+    <a href="#about-us" class="burger__nav-link">О НАС</a>
+    <a href="#projects" class="burger__nav-link">ПРОЕКТЫ</a>
+    <a href="#services" class="burger__nav-link">УСЛУГИ</a>
+    <a href="#contacts" class="burger__nav-link">КОНТАКТЫ</a>
+</nav>
+<p class="burger__contatcs-title">для связи:</p>
+  <a class="burger__tel" href="tel:+79358954535">
+    +7 960 540-92-54
+  </a>
+  <a class="burger__email" href="https://t.me/iamfromfuture" target="_blank">
+    Evgenii Fakhrutdinov
+  </a>
+
+      </div>
+      </div>
+      <script src="burger.js"></script>
+
     <main class="main">
       <!-- Первая часть макета -->
 
@@ -250,19 +279,19 @@
             </ul>
             <button class="js-btn service-btn" href="">Заказать услугу</button>
             <div class="js-popup popup">
-              
+
               <div class="js-popup__content popup__content">
                 <div class="popup__wrapper">
                 <p class="popup__title">Заказать услугу</p>
                 <p class="popup__description">Заполните форму, мы свяжемся с вами в течение суток</p>
                 <div class="popup__input">
-                <input class="input" 
+                <input class="input"
                 type="text"
                 placeholder="Имя">
-                <input class="input" 
+                <input class="input"
                 type="text"
                 placeholder="Электронная почта">
-                <input class="input" 
+                <input class="input"
                 type="text"
                 placeholder="Номер телефона">
               </div>
@@ -391,7 +420,6 @@
             <button class="gallery__control-prev"></button>
             <button class="gallery__control-next"></button>
           </div>
-    
       </section>
       <script src="gallery.js"></script>
 
