@@ -98,10 +98,10 @@
         .burger-btn {
           top: 12px;
           right: 1px;
-          background-image: url(/resources/icon-burger-btn_mobile.png);
+          background-image: url(../resources/icon-burger-btn_mobile.png);
         }
 
         .burger-btn_open {
-          background-image: url(/resources/icon-close_mobile.png);
+          background-image: url(../resources/icon-close_mobile.png);
         }
         }
