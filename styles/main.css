@@ -1,12 +1,15 @@
 @import url(../styles/header.css);
+@import url(../styles/burger.css);
 @import url(../styles/intro.css);
 @import url(../styles/about-us.css);
 @import url(../styles/projects.css);
 @import url(../styles/services.css);
+@import url(../styles/popup.css);
 @import url(../styles/gallery.css);
 @import url(../styles/contacts.css);
 @import url(../styles/footer.css);
 @import url(../styles/reviews.css);
+@import url(../styles/buttons.css);
 
 html {
   scroll-behavior: smooth;
@@ -16,6 +19,15 @@ body {
   width: 100%;
   font-family: "Manrope", sans-serif;
   font-style: normal;
+}
+
+.body_fixed {
+  overflow: hidden;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .main {
@@ -88,7 +100,7 @@ button {
   }
 
   .projects {
-    margin-bottom: 0px;
+    margin-bottom: 100px;
   }
 }
 

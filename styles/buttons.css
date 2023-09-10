@@ -1,0 +1,80 @@
+.btn {
+    display: block;
+    border: 1px solid #ad1818;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #ad1818;
+    color: #f5f5f5;
+}
+
+.about-us_btn {
+    padding-top: 20px;
+    width: 30%;
+    height: 67px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .about-us_btn:hover {
+    color: #ad1818;
+    background-color: white;
+  }
+
+  .project_btn,
+  .service_btn,
+  .popup__sendform-btn {
+    width: 100%;
+  }
+
+  .project_btn,
+  .service_btn {
+    height: 153px;
+    line-height: 41px;
+    font-size: 30px;
+  }
+
+  .project_btn {
+    padding-top: 56px;
+    background-color: white;
+    color: #ad1818;
+  }
+
+  .project_btn:hover {
+    color: #f5f5f5;
+    background-color: #ad1818;
+  }
+
+  .service_btn {
+    border: none  ;
+  }
+
+  .popup__sendform-btn {
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px;
+    }
+
+  @media (max-width: 1199px) {
+    .about-us_btn {
+        font-size: 20px;
+      }
+
+  }
+  @media (max-width: 767px) {
+    .about-us_btn {
+        width: 100%;
+        font-size: 16px;
+      }
+
+      .project_btn,
+      .service_btn {
+        height: 100px;
+        font-size: 22px;
+        line-height: normal;
+      }
+
+      .project_btn {
+        padding-top: 37px;
+      }
+  }

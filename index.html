@@ -15,7 +15,9 @@
     <link rel="icon" href="resources/favicon.ico" type="image/x-icon" />
   </head>
   <body>
+
     <!-- Навигация -->
+
     <header>
           <div class="container">
             <a class="logo-link" href="#main">
@@ -37,8 +39,11 @@
             </nav>
              </div>
       </header>
+
+     <!-- Бургер меню -->
+
       <div class="js-burger burger">
-        <div class="js-burger__content burger__content">
+        <div class="burger__content">
     <img class="burger__logo" src="resources/logo-burger_open.png" alt="Логотип компании">
     <nav class="burger__nav">
     <a href="#about-us" class="burger__nav-link">О НАС</a>
@@ -46,19 +51,20 @@
     <a href="#services" class="burger__nav-link">УСЛУГИ</a>
     <a href="#contacts" class="burger__nav-link">КОНТАКТЫ</a>
 </nav>
-<p class="burger__contatcs-title">для связи:</p>
+<div class="js-burger__content burger__contacts">
+  <p class="burger__contatcs-title">для связи:</p>
   <a class="burger__tel" href="tel:+79358954535">
     +7 960 540-92-54
   </a>
   <a class="burger__email" href="https://t.me/iamfromfuture" target="_blank">
     Evgenii Fakhrutdinov
   </a>
-
+</div>
       </div>
       </div>
-      <script src="burger.js"></script>
 
     <main class="main">
+
       <!-- Первая часть макета -->
 
       <section class="intro">
@@ -74,7 +80,9 @@
           </div>
         </div>
       </section>
+
       <!-- Вторая часть макета -->
+
       <section class="about-us" id="about-us">
         <div class="container">
           <h2 class="about-us__title">О НАС</h2>
@@ -84,7 +92,7 @@
             решениями и практичностью. Находим конструктивные решения для
             каждого интерьера, вплоть до каждой детали — нацелены на результат.
           </p>
-          <a class="about-us__btn" href="#services">Посмотреть услуги</a>
+          <a class="btn about-us_btn" href="#services">Посмотреть услуги</a>
         </div>
       </section>
 
@@ -178,7 +186,7 @@
               </li>
             </ul>
 
-            <a class="project-btn" href="#projects">Смотреть все проекты</a>
+            <a class="btn project_btn" href="#projects">Смотреть все проекты</a>
           </div>
         </div>
       </section>
@@ -277,33 +285,36 @@
                 </div>
               </div>
             </ul>
-            <button class="js-btn service-btn" href="">Заказать услугу</button>
+
+            <!-- Поп-ап -->
+
+            <button class="btn js-btn service_btn" href="">Заказать услугу</button>
             <div class="js-popup popup">
 
               <div class="js-popup__content popup__content">
-                <div class="popup__wrapper">
                 <p class="popup__title">Заказать услугу</p>
                 <p class="popup__description">Заполните форму, мы свяжемся с вами в течение суток</p>
-                <div class="popup__input">
+                <form class="popup__input">
                 <input class="input"
                 type="text"
+                name="name"
                 placeholder="Имя">
                 <input class="input"
-                type="text"
+                type="email"
+                name="email"
                 placeholder="Электронная почта">
                 <input class="input"
-                type="text"
+                type="tel"
+                name="phone"
                 placeholder="Номер телефона">
-              </div>
+              </form>
                 <div class="js-popup__close-btn popup__close-btn"></div>
-                <button class="popup__sendform-btn">Отправить</button>
-              </div>
+                <button class="btn popup__sendform-btn">Отправить</button>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <script src="popup.js"></script>
 
       <!-- Отзывы -->
 
@@ -359,7 +370,7 @@
         </div>
       </section>
 
-      <!-- Изображение на весь экран -->
+      <!-- Галлерея -->
 
       <section class="gallery">
         <div class="container">
@@ -421,7 +432,6 @@
             <button class="gallery__control-next"></button>
           </div>
       </section>
-      <script src="gallery.js"></script>
 
       <!-- Контакты -->
 
@@ -443,7 +453,9 @@
         </div>
       </section>
     </main>
+
     <!-- Футер -->
+
     <footer class="footer">
       <div class="container">
         <nav class="footer-nav">
@@ -455,5 +467,10 @@
         <p class="footer-text">студия дизайна интерьера Метрика — 2023</p>
       </div>
     </footer>
+
+    <script src="burger.js"></script>
+    <script src="popup.js"></script>
+    <script src="gallery.js"></script>
+
   </body>
 </html>
