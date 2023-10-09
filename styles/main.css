@@ -31,6 +31,7 @@ button {
 }
 
 .main {
+  padding-top: 65px;
   margin: 0 auto;
   background-color: #ffffff;
 }
@@ -38,17 +39,6 @@ button {
 .container {
   margin: 0 auto;
   max-width: 1150px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 85px;
-}
-
-.col {
-  width: calc(50% - 5px);
 }
 
 .intro,
@@ -60,15 +50,11 @@ button {
   margin-bottom: 150px;
 }
 
-.about-us__title,
-.projects__title,
-.services__title,
-.contacts__title,
-.reviews__title {
+h2 {
   margin-bottom: 30px;
   font-size: 18px;
-  line-height: 25px;
 }
+
 
 h1,
 h2,
@@ -87,10 +73,6 @@ button {
     padding-right: 17px;
   }
 
-  .row {
-    row-gap: 80px;
-  }
-
   .intro,
   .about-us,
   .services,
@@ -105,19 +87,14 @@ button {
 }
 
 @media (max-width: 767px) {
+  .main {
+    padding-top: 40px;
+  }
+
   .container {
     width: 100%;
     padding-left: 13px;
     padding-right: 12px;
-  }
-
-  .row {
-    flex-direction: column;
-    row-gap: 60px;
-  }
-
-  .col {
-    width: 100%;
   }
 
   .about-us__title,

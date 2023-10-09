@@ -10,7 +10,7 @@
     background-color: rgba(0, 0, 0, 0.8);
     opacity: 0;
     visibility: hidden;
-    z-index: 1;
+    z-index: 2;
   }
 
   .burger_open .burger__content {
@@ -74,7 +74,7 @@
     @media (max-width: 1199px) {
         .burger-btn {
             position: absolute;
-            top: 18px;
+            top: 0;
             right: 15px;
             display: block;
             background: none;
@@ -84,20 +84,23 @@
             background-image: url(../resources/icon-burger_table.png);
             background-repeat: no-repeat;
             background-position: 50%;
-            z-index: 2;
+            z-index: 1;
             cursor: pointer;
           }
 
           .burger-btn_open {
-            background-image: url(../resources/icon-close_burger.png);
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
           }
 
     }
 
     @media (max-width: 767px) {
         .burger-btn {
-          top: 12px;
-          right: 1px;
+          top: -8px;
+          right: 10px;
           background-image: url(../resources/icon-burger-btn_mobile.png);
         }
 

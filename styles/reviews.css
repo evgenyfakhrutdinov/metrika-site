@@ -21,7 +21,7 @@
 
 .review__text {
   font-size: 22px;
-  line-height: 30px;
+  line-height: normal;
 }
 
 @media (max-width: 1199px) {
@@ -36,7 +36,6 @@
 
   .review__text {
     font-size: 20px;
-    line-height: normal;
   }
 }
 
@@ -64,6 +63,5 @@
   .review__text {
     height: auto;
     font-size: 16px;
-    line-height: normal;
   }
 }

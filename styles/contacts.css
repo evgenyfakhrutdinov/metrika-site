@@ -1,45 +1,37 @@
 .contacts__text-wrapper {
   margin-top: 74px;
-  margin-bottom: 150px;
   position: relative;
   display: flex;
   flex-direction: row;
   gap: 104px;
 }
 
-.contacts__tel {
-  margin-bottom: 30px;
-  position: relative;
-}
-
-.contacts__tel-link {
-  font-size: 60px;
-  line-height: 60px;
-  text-decoration: none;
-  color: #121212;
-}
-
-.contacts__tel-link:hover {
-  text-decoration: 2px underline;
-  text-underline-offset: 10px;
-  opacity: 0.5;
-  color: rgba(0, 0, 0, 0, 5);
-}
-
+.contacts__tel,
 .contacts__email {
   position: relative;
+}
+
+.contacts__tel-link,
+.contacts__email-link {
+  font-size: 60px;
+  text-decoration: none;
+  color: #121212;
+
+}
+.contacts__tel-link:hover,
+.contacts__email-link:hover {
+  text-decoration: 2px underline;
+  text-underline-offset: 10px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .contacts__tel:before,
 .contacts__email:before {
   content: "";
   position: absolute;
-  display: block;
   top: -45px;
   width: 24px;
   height: 24px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .contacts__tel:before {
@@ -50,19 +42,6 @@
   background-image: url(../resources/mail-icon.png);
 }
 
-.contacts__email-link {
-  font-size: 60px;
-  line-height: 60px;
-  text-decoration: none;
-  color: #121212;
-}
-
-.contacts__email:hover {
-  text-decoration: 2px underline;
-  text-underline-offset: 10px;
-  opacity: 0.5;
-  color: #000000;
-}
 
 @media (max-width: 1199px) {
   .contacts__tel-link,
@@ -89,6 +68,5 @@
   .contacts__tel-link,
   .contacts__email-link {
     font-size: 35px;
-    line-height: 45px;
   }
 }

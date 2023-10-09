@@ -2,20 +2,15 @@
   margin-bottom: 30px;
   width: 1048px;
   font-size: 45px;
-  line-height: 61px;
+  line-height: normal;
+
 }
 
 @media (max-width: 1199px) {
-  .about-us__title {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: normal;
-  }
 
   .about-us__description {
     width: 690px;
     font-size: 35px;
-    line-height: normal;
   }
 }
 
