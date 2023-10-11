@@ -9,7 +9,7 @@
 }
 
 .about-us_btn {
-    padding: 20px 40px;
+    padding: 20px;
     width: 30%;
     height: 67px;
     font-size: 20px;
@@ -35,7 +35,7 @@
   }
 
   .project_btn {
-    padding: 56px 0 56px 0;
+    padding: 56px;
     background-color: white;
     color: #ad1818;
   }
