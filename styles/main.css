@@ -41,13 +41,16 @@ button {
   max-width: 1150px;
 }
 
-.intro,
-.about-us,
 .projects,
 .services,
 .contacts,
 .gallery {
   margin-bottom: 150px;
+}
+
+.about-us,
+.projects {
+  padding-top: 150px;
 }
 
 h2 {
