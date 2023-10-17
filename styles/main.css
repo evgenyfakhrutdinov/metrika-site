@@ -76,15 +76,18 @@ button {
     padding-right: 17px;
   }
 
-  .intro,
-  .about-us,
   .services,
   .contacts,
   .gallery {
     margin-bottom: 120px;
   }
 
+  .about-us {
+    padding-top: 120px;
+  }
+
   .projects {
+    padding-top: 120px;
     margin-bottom: 100px;
   }
 }
@@ -110,15 +113,14 @@ button {
     letter-spacing: -0.48px;
   }
 
-  .intro,
-  .projects,
   .services,
   .contacts,
   .gallery {
     margin-bottom: 80px;
   }
 
-  .about-us {
-    margin-bottom: 54px;
+  .about-us,
+  .projects {
+    padding-top: 80px;
   }
 }
