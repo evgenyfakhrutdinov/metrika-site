@@ -43,7 +43,7 @@
 }
 
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .contacts__tel-link,
   .contacts__email-link {
     font-size: 45px;

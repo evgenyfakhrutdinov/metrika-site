@@ -42,7 +42,7 @@
   color: #ffffff;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .services {
     padding: 120px 0 120px 0;
   }

@@ -40,7 +40,7 @@ header {
   color: #000000;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .nav {
     display: none;
   }

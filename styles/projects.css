@@ -20,7 +20,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .project {
     margin-bottom: 80px;
   }

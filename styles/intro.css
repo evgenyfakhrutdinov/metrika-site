@@ -24,7 +24,7 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   h1 {
     max-width: 802px;
     font-size: 50px;
