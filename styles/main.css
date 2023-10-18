@@ -37,6 +37,8 @@ button {
 }
 
 .container {
+  padding-left: 17px;
+  padding-right: 15px;
   margin: 0 auto;
   max-width: 1150px;
 }
@@ -72,8 +74,6 @@ button {
 @media (max-width: 961px) {
   .container {
     width: 100%;
-    padding-left: 15px;
-    padding-right: 17px;
   }
 
   .services,
